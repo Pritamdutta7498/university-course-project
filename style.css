@@ -33,25 +33,57 @@ nav img {
   position: relative;
 }
 .nav-link ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-    position: relative;
-   }
-   
-   .nav-link ul li a::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    transition: 0.5s;
-   }
-   
-   .nav-link ul li a:hover::before {
-    width: 100%;
-   }
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  position: relative;
+}
 
+.nav-link ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #f44336;
+  transition: 0.5s;
+}
 
+.nav-link ul li a:hover::before {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 63px;
+}
+.text-box p {
+  margin: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 30px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.hero-btn:hover {
+  background-color: #f44336;
+  border: 1px solid #f44336;
+}
