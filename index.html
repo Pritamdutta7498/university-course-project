@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
+    
 </head>
 
 <body>
@@ -21,7 +22,12 @@
             <a href="index.html">
                 <img src="img/logo.png" alt="" srcset="">
             </a>
-            <div class="nav-link">
+            <div>
+                <!-- <i class="fa-solid fa-bars-staggered"></i>
+                <i class="fa-solid fa-xmark"></i> -->
+            </div>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark " onclick="hideMenu()"></i>
                 <ul>
                     <li> <a href="">HOME</a> </li>
                     <li> <a href="">ABOUT</a> </li>
@@ -30,17 +36,34 @@
                     <li> <a href="">CONTACT</a> </li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars-staggered" onclick="showMenu()"></i>
+
+
         </nav>
         <div class="text-box">
             <h1>The Bangladesh University</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur corrupti aut nihil, delectus id fugiat aliquam <br> doloremque possimus aliquid sint consectetur suscipit,  quasi odio magni nobis <br> eum dolores aspernatur iste.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur corrupti aut nihil, delectus id fugiat
+                aliquam <br> doloremque possimus aliquid sint consectetur suscipit, quasi odio magni nobis <br> eum
+                dolores aspernatur iste.</p>
             <a href="" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
 
 
+    <!-- javascript for toggle menu -->
 
-    <script src="./script.js"></script>
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = '0';
+            
+        };
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/3cedfc9ed8.js" crossorigin="anonymous"></script>
 
 </body>
 

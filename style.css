@@ -87,3 +87,38 @@ nav img {
   background-color: #f44336;
   border: 1px solid #f44336;
 }
+/* responsive */
+nav i {
+  display: none;
+}
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 30px;
+  }
+  .nav-link ul li {
+    display: block;
+  }
+  .nav-link {
+    position: absolute;
+    background: #58a9ec;
+    height: 100vh;
+
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  nav i {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .nav-link ul {
+    padding: 30px;
+  }
+}
