@@ -306,3 +306,33 @@ h3 {
     font-size: 24px;
   }
 }
+
+/* footer section added */
+.footer{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom:25px ;
+  margin-top:20px;
+  font-weight: 600;
+}
+.footer p{
+  text-align: center;
+}
+.icons{
+  margin:0 13px;
+  color: #2593ee;
+
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: large;
+}
+.icons .fa-instagram{
+  color: #f632c8;
+}
+.fa-heart{
+  color:#f44336
+} 
