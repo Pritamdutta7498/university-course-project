@@ -64,6 +64,7 @@ nav img {
 }
 .text-box h1 {
   font-size: 63px;
+  text-shadow: 0px 0px 10px #e8861e;
 }
 .text-box p {
   margin: 10px;
@@ -248,7 +249,7 @@ h3 {
   padding-top: 80px;
 }
 .testimonial-col {
-  flex-basis: 44%;
+  flex-basis: 28%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
@@ -284,55 +285,51 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)),
-    url(img/banner2.jpg)
-  ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/banner2.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
   padding: 100px 0;
   text-align: center;
 }
-.cta h1{
+.cta h1 {
   color: #ffffff;
   margin-bottom: 40px;
-
-  
 }
-@media(max-width:700px){
-  .cta h1{
+@media (max-width: 700px) {
+  .cta h1 {
     font-size: 24px;
+    padding: 0 10px;
   }
 }
 
 /* footer section added */
-.footer{
+.footer {
   width: 80%;
-  margin:auto;
+  margin: auto;
   text-align: center;
   padding: 30px 0;
 }
-.footer h4{
-  margin-bottom:25px ;
-  margin-top:20px;
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
   font-weight: 600;
 }
-.footer p{
+.footer p {
   text-align: center;
 }
-.icons{
-  margin:0 13px;
+.icons {
+  margin: 0 13px;
   color: #2593ee;
 
   cursor: pointer;
   padding: 18px 0;
   font-size: large;
 }
-.icons .fa-instagram{
+.icons .fa-instagram {
   color: #f632c8;
 }
-.fa-heart{
-  color:#f44336
-} 
+.fa-heart {
+  color: #f44336;
+}
